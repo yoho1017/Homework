@@ -1,0 +1,9 @@
+如果要引入其他靜態Repository(資料庫/專案)
+到自己的主Repository,希望同步更新可以使用Git Submodule 
+
+Git Submodule 其實就是巢狀的 Git 結構，也就是你有一個 Repository，
+裡面還有一個子 Repository，
+兩個 Repository 參考的是不同的 remote(遠端) 的情況。
+而如果用一般的 Git Push 的話，
+你會發現子 Repository 的資料並不會同步到 remote repository，
+因此這邊就要加入 Git Submodule 的指令操作～
